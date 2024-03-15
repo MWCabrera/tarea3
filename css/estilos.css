@@ -1,0 +1,92 @@
+.padre{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 30% 30% 20% 20%;
+    grid-template-rows: 100px 100px 100px 50px 50px;
+    justify-content: space-between;
+    
+}
+.hijo{
+    background-color: aqua;
+    border-style: solid;
+    border-color: gray;
+    font-size: 30px;
+}
+.hijo1{
+    background-color: wheat;
+    border-style: solid;
+    border-color: gray;
+    grid-column: 1/5;
+    font-size: 30px;
+}
+.hijo2{
+    background-color: violet;
+    border-style: solid;
+    border-color: gray;
+    grid-column: 1/3;
+    font-size: 30px;
+}
+.hijo6{
+    background-color: green;
+    border-style: solid;
+    border-color: gray;
+    grid-column: 2/5;
+    font-size: 30px;
+}
+.hijo7{
+    background-color: yellowgreen;
+    border-style: solid;
+    border-color: gray;
+    grid-column: 1/3;
+    grid-row: 4/6;
+    font-size: 30px;
+}
+.hijo8{
+    background-color: crimson;
+    border-style: solid;
+    border-color: gray;
+    grid-column: 3/5;
+    font-size: 30px;
+}
+.cajaBase{
+    background-color: cadetblue;
+    padding: 0.5%;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+.cajaA{
+    background-color: yellowgreen;
+    width: 24%;
+    margin: 0.5%;
+}
+.cajaB{
+    display: flex;
+    background-color: yellowgreen;
+    width: 48%;
+    margin: 0.5%;
+    padding: 0.5%;
+    flex-direction: column;
+    align-items: center;
+}
+.cajaC{
+    margin: 1%;
+    background-color: white;
+    width: 98%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.cajaC1{
+    margin: 1%;
+    background-color: yellowgreen;
+    width: 98%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.cajaD{
+    background-color: white;
+    height: auto;
+    width: 48%;
+}
